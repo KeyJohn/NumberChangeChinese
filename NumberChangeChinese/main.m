@@ -14,7 +14,7 @@ int main(int argc, const char * argv[]) {
         // insert code here...
         
         //test！！
-        NSString *capital = [Manage changeCapitalChineseWithNumber:@411001526];
+        NSString *capital = [Manage changeCapitalChineseWithNumber:@410011526];
         NSString *lowercase = [Manage changeLowercaseChineseWithNumber:@410011526];
         NSLog(@"capital is %@", capital);
         NSLog(@"lowercase is %@", lowercase);
