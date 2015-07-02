@@ -7,11 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Manage.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        
+        //test！！
+        NSString *capital = [Manage changeCapitalChineseWithNumber:@411001526];
+        NSString *lowercase = [Manage changeLowercaseChineseWithNumber:@410011526];
+        NSLog(@"capital is %@", capital);
+        NSLog(@"lowercase is %@", lowercase);
+        
     }
     return 0;
 }
